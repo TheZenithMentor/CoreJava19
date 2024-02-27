@@ -8,7 +8,7 @@ public class D1 {
             {
                 System.out.print(" ");
             }
-            for (int k=0;k=j;k)
+//            for (int k=0;k=j;k)
         }
     }
 }
