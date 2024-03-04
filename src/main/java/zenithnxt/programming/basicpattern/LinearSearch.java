@@ -2,26 +2,20 @@ package zenithnxt.programming.basicpattern;
 
 public class LinearSearch {
     public static void main(String[] args) {
-        int a[]={7,5,3,2,1,9};
-        int search=10;
-        int k=0;
+        int a[] = {7, 5, 3, 2, 1, 9};
+        int search = 10;
+        int k = 0;
         // k=1 : found , k=0 : not found
-        for (int i=0;i<a.length;i++)
-        {
+        for (int i = 0; i < a.length; i++) {
             // comparison
-            if(search==a[i])
-            {
-                k=1;
+            if (search == a[i]) {
+                k = 1;
             }
-
         }
         //check the value of k
-        if (k==1)
-        {
+        if (k == 1) {
             System.out.println("element found ");
-        }
-        else
-        {
+        } else {
             System.out.println("Element not found");
         }
 
