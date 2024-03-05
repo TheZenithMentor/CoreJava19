@@ -7,11 +7,11 @@ public class ASSI {
 //        System.out.println(s);
 //        System.out.println(s.intern());
 
-        StringBuilder sb = new StringBuilder("java");
-        System.out.println(sb);
-        sb.append("is good");
-        System.out.println(sb);
-        System.out.println(sb.reverse());
+//        StringBuilderProgram sb = new StringBuilderProgram("java");
+//        System.out.println(sb);
+//        sb.append("is good");
+//        System.out.println(sb);
+//        System.out.println(sb.reverse());
 
     }
 }

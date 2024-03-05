@@ -2,7 +2,7 @@ package zenithnxt.programming.basicpattern.String;
 
 public class E {
     public static void main(String[] args) {
-        String s = "Hello how are you";
+        String s = "H Hello how are you";
 
         // convert the string into array based on a seperator
         String arr[]=s.split(" ");
